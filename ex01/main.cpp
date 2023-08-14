@@ -15,15 +15,15 @@ int main( void ) {
 
 		horde = zombieHorde(0, "test");
 		if (horde == NULL) {
-			std::cout << "C'est null" << std::endl;
+			std::cout << "Null" << std::endl;
 		}
 	}
 	{
 		Zombie *horde;
 
-		horde = zombieHorde(-5, "oui");
+		horde = zombieHorde(-5, "yes");
 		if (horde == NULL) {
-			std::cout << "C'est null" << std::endl;
+			std::cout << "Null" << std::endl;
 		}
 	}
 }
