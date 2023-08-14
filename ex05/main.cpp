@@ -5,7 +5,6 @@ int main( void ) {
 
 	harl.complain("debug");
 	harl.complain("info");
-	harl.complain("warning");
 	harl.complain("error");
-	harl.complain("notexist");
+	harl.complain("warning");
 }
